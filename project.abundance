@@ -34,9 +34,32 @@
           "currentEquation": "48"
         }
       ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.48600628930817613,
+      "y": 0.22388059701492538,
+      "uniqueID": "id-10",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 0.75,
+          "currentEquation": ".75"
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6",
+      "ap2ID": "id-10"
+    }
+  ],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
