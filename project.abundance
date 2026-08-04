@@ -17,6 +17,23 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.38600628930817615,
+      "y": 0.22388059701492538,
+      "uniqueID": "id-6",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 96
+        },
+        {
+          "name": "y length",
+          "ioValue": 48,
+          "currentEquation": "48"
+        }
+      ]
     }
   ],
   "allConnectors": [],
