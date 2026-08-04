@@ -51,6 +51,58 @@
           "currentEquation": ".75"
         }
       ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.5511006289308176,
+      "y": 0.30597014925373134,
+      "uniqueID": "id-14",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.49528301886792453,
+      "y": 0.49253731343283585,
+      "uniqueID": "id-20",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 12,
+          "currentEquation": "12"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 36,
+          "currentEquation": "36"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -58,6 +110,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-6",
       "ap2ID": "id-10"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-10",
+      "ap2ID": "id-14"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-14",
+      "ap2ID": "id-20"
     }
   ],
   "unitsKey": "Inches",
